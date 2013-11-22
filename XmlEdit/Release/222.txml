@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Xnd_Node Name="Effect">
+    <Xnd_Attr Name="CameraStart" Type="XML_FLOAT" Value="1.000000" />
+    <Xnd_Attr Name="DistanceClip" Type="XML_INT" Value="0" />
+    <Xnd_Node Name="ObjectList">
+        <Xnd_Node Name="Object">
+            <Xnd_Attr Name="ObjectId" Type="XML_STRING" Value="lz2.1" />
+        </Xnd_Node>
+    </Xnd_Node>
+    <Xnd_Node Name="TaskList">
+        <Xnd_Node Name="TASK">
+            <Xnd_Attr Name="TaskId" Type="XML_INT" Value="0" />
+        </Xnd_Node>
+    </Xnd_Node>
+    <Xnd_Node Name="TaskParamList">
+        <Xnd_Node Name="ShowobjTask">
+            <Xnd_Attr Name="Attr_Class_Name" Type="XML_STRING" Value="ShowobjTask" />
+            <Xnd_Attr Name="Attr_Task_Expect_Time" Type="XML_FLOAT" Value="-1.000000" />
+            <Xnd_Attr Name="Attr_Task_Wait_Mode" Type="XML_INT" Value="2" />
+            <Xnd_Attr Name="Attr_Task_Wait_Time" Type="XML_FLOAT" Value="0.000000" />
+        </Xnd_Node>
+    </Xnd_Node>
+    <Xnd_Node Name="TargetList">
+        <Xnd_Node Name="">
+            <Xnd_Attr Name="TargetName" Type="XML_STRING" Value="1" />
+            <Xnd_Attr Name="TargetPosX" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="TargetPosY" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="TargetPosZ" Type="XML_FLOAT" Value="-233.000000" />
+        </Xnd_Node>
+        <Xnd_Node Name="">
+            <Xnd_Attr Name="TargetName" Type="XML_STRING" Value="T1" />
+            <Xnd_Attr Name="TargetPosX" Type="XML_FLOAT" Value="8.000000" />
+            <Xnd_Attr Name="TargetPosY" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="TargetPosZ" Type="XML_FLOAT" Value="156.000000" />
+        </Xnd_Node>
+    </Xnd_Node>
+    <Xnd_Node Name="OxnList">
+        <Xnd_Node Name="RtkPrtStdAtomicObject">
+            <Xnd_Attr Name="Attr_Class_Name" Type="XML_STRING" Value="RtkPrtStdAtomicObject" />
+            <Xnd_Attr Name="Attr_Label" Type="XML_STRING" Value="lz2.1" />
+            <Xnd_Attr Name="Attr_PreRender_Time" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_PrtSize_x" Type="XML_FLOAT" Value="40.000000" />
+            <Xnd_Attr Name="Attr_PrtSize_y" Type="XML_FLOAT" Value="40.000000" />
+            <Xnd_Attr Name="Attr_Prt_2DRotate" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_2DRotateGradual" Type="XML_INT" Value="1" />
+            <Xnd_Attr Name="Attr_Prt_AlphaBlend_Dest" Type="XML_INT" Value="2" />
+            <Xnd_Attr Name="Attr_Prt_AlphaBlend_Src" Type="XML_INT" Value="5" />
+            <Xnd_Attr Name="Attr_Prt_AlphaBlend_off" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_Alpha_AutoGradual" Type="XML_INT" Value="1" />
+            <Xnd_Attr Name="Attr_Prt_Atomic_Position_x" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_Atomic_Position_y" Type="XML_FLOAT" Value="20.000000" />
+            <Xnd_Attr Name="Attr_Prt_Atomic_Position_z" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_Atomic_Rotate_x" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_Atomic_Rotate_y" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_Atomic_Rotate_z" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_Atomic_Scale_x" Type="XML_FLOAT" Value="1.000000" />
+            <Xnd_Attr Name="Attr_Prt_Atomic_Scale_y" Type="XML_FLOAT" Value="1.000000" />
+            <Xnd_Attr Name="Attr_Prt_Atomic_Scale_z" Type="XML_FLOAT" Value="1.000000" />
+            <Xnd_Attr Name="Attr_Prt_Axis_FacePoint" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_Axis_XZ" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_ColorGradual" Type="XML_INT" Value="1" />
+            <Xnd_Attr Name="Attr_Prt_Color_Alpha" Type="XML_INT" Value="255" />
+            <Xnd_Attr Name="Attr_Prt_Color_Blue" Type="XML_INT" Value="255" />
+            <Xnd_Attr Name="Attr_Prt_Color_Green" Type="XML_INT" Value="255" />
+            <Xnd_Attr Name="Attr_Prt_Color_Red" Type="XML_INT" Value="255" />
+            <Xnd_Attr Name="Attr_Prt_EmitGap" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_EmitGap_Bias" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_EmitterType" Type="XML_STRING" Value="圆柱体" />
+            <Xnd_Attr Name="Attr_Prt_End2DRotate" Type="XML_FLOAT" Value="0.100000" />
+            <Xnd_Attr Name="Attr_Prt_End2DRotateBias" Type="XML_FLOAT" Value="0.100000" />
+            <Xnd_Attr Name="Attr_Prt_EndColBias_Alpha" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_EndColBias_Blue" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_EndColBias_Green" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_EndColBias_Red" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_EndCol_Alpha" Type="XML_INT" Value="255" />
+            <Xnd_Attr Name="Attr_Prt_EndCol_Blue" Type="XML_INT" Value="175" />
+            <Xnd_Attr Name="Attr_Prt_EndCol_Green" Type="XML_INT" Value="189" />
+            <Xnd_Attr Name="Attr_Prt_EndCol_Red" Type="XML_INT" Value="53" />
+            <Xnd_Attr Name="Attr_Prt_EndSizeBias_x" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_EndSizeBias_y" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_EndSize_x" Type="XML_FLOAT" Value="40.000000" />
+            <Xnd_Attr Name="Attr_Prt_EndSize_y" Type="XML_FLOAT" Value="40.000000" />
+            <Xnd_Attr Name="Attr_Prt_Force_x" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_Force_y" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_Force_z" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_Gravitate" Type="XML_FLOAT" Value="-2.000000" />
+            <Xnd_Attr Name="Attr_Prt_Gravitate_Pos_x" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_Gravitate_Pos_y" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_Gravitate_Pos_z" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_InitDir_Bias_x" Type="XML_FLOAT" Value="0.100000" />
+            <Xnd_Attr Name="Attr_Prt_InitDir_Bias_y" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_InitDir_Bias_z" Type="XML_FLOAT" Value="0.100000" />
+            <Xnd_Attr Name="Attr_Prt_InitDir_x" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_InitDir_y" Type="XML_FLOAT" Value="0.100000" />
+            <Xnd_Attr Name="Attr_Prt_InitDir_z" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_InitVel" Type="XML_FLOAT" Value="3.000000" />
+            <Xnd_Attr Name="Attr_Prt_Is_Billboard" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_Is_Point" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_MaxPrt" Type="XML_INT" Value="30" />
+            <Xnd_Attr Name="Attr_Prt_PrtEmit" Type="XML_INT" Value="2" />
+            <Xnd_Attr Name="Attr_Prt_PrtEmit_Bias" Type="XML_INT" Value="2" />
+            <Xnd_Attr Name="Attr_Prt_PrtLife" Type="XML_FLOAT" Value="2.000000" />
+            <Xnd_Attr Name="Attr_Prt_PrtLife_Bias" Type="XML_FLOAT" Value="1.000000" />
+            <Xnd_Attr Name="Attr_Prt_SizeGradual" Type="XML_INT" Value="1" />
+            <Xnd_Attr Name="Attr_Prt_Size_x" Type="XML_FLOAT" Value="5.000000" />
+            <Xnd_Attr Name="Attr_Prt_Size_y" Type="XML_FLOAT" Value="20.000000" />
+            <Xnd_Attr Name="Attr_Prt_Size_z" Type="XML_FLOAT" Value="30.000000" />
+            <Xnd_Attr Name="Attr_Prt_Start2DRotate" Type="XML_FLOAT" Value="0.200000" />
+            <Xnd_Attr Name="Attr_Prt_Start2DRotateBias" Type="XML_FLOAT" Value="0.200000" />
+            <Xnd_Attr Name="Attr_Prt_StartColBias_Alpha" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_StartColBias_Blue" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_StartColBias_Green" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_StartColBias_Red" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_StartCol_Alpha" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_StartCol_Blue" Type="XML_INT" Value="230" />
+            <Xnd_Attr Name="Attr_Prt_StartCol_Green" Type="XML_INT" Value="249" />
+            <Xnd_Attr Name="Attr_Prt_StartCol_Red" Type="XML_INT" Value="155" />
+            <Xnd_Attr Name="Attr_Prt_StartSizeBias_x" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_StartSizeBias_y" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_StartSize_x" Type="XML_FLOAT" Value="20.000000" />
+            <Xnd_Attr Name="Attr_Prt_StartSize_y" Type="XML_FLOAT" Value="20.000000" />
+            <Xnd_Attr Name="Attr_Prt_Strip" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Prt_Strip_Twice" Type="XML_INT" Value="1" />
+            <Xnd_Attr Name="Attr_Prt_Texture" Type="XML_STRING" Value="HY\smoke 1.png" />
+            <Xnd_Attr Name="Attr_Prt_Use_AlphaBlend" Type="XML_INT" Value="1" />
+            <Xnd_Attr Name="Attr_Prt_initVel_Bias" Type="XML_FLOAT" Value="1.500000" />
+            <Xnd_Attr Name="Attr_Prt_uv_u0" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_uv_u1" Type="XML_FLOAT" Value="1.000000" />
+            <Xnd_Attr Name="Attr_Prt_uv_v0" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Prt_uv_v1" Type="XML_FLOAT" Value="1.000000" />
+            <Xnd_Attr Name="Attr_Render_BeforeClump" Type="XML_INT" Value="1" />
+            <Xnd_Attr Name="Attr_prt_Inherit_Frame" Type="XML_INT" Value="1" />
+        </Xnd_Node>
+        <Xnd_Node Name="ClumpObject">
+            <Xnd_Attr Name="ATTR_Clump_RefMap_Coeff" Type="XML_FLOAT" Value="0.800000" />
+            <Xnd_Attr Name="Attr_Class_Name" Type="XML_STRING" Value="ClumpObject" />
+            <Xnd_Attr Name="Attr_Clump_Color_Alpha" Type="XML_INT" Value="255" />
+            <Xnd_Attr Name="Attr_Clump_Color_Blue" Type="XML_INT" Value="255" />
+            <Xnd_Attr Name="Attr_Clump_Color_Green" Type="XML_INT" Value="255" />
+            <Xnd_Attr Name="Attr_Clump_Color_Red" Type="XML_INT" Value="255" />
+            <Xnd_Attr Name="Attr_Clump_DualMap_Texture" Type="XML_STRING" Value="未设置" />
+            <Xnd_Attr Name="Attr_Clump_DualMap_Use" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Clump_FileName" Type="XML_STRING" Value="HY\404\404" />
+            <Xnd_Attr Name="Attr_Clump_NorMap_Coeff" Type="XML_FLOAT" Value="1.000000" />
+            <Xnd_Attr Name="Attr_Clump_NorMap_Texture" Type="XML_STRING" Value="未设置" />
+            <Xnd_Attr Name="Attr_Clump_NorMap_Use" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Clump_Position_x" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Clump_Position_y" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Clump_Position_z" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Clump_RefMap_Texture" Type="XML_STRING" Value="未设置" />
+            <Xnd_Attr Name="Attr_Clump_RefMap_Use" Type="XML_INT" Value="0" />
+            <Xnd_Attr Name="Attr_Clump_Rotate_x" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Clump_Rotate_y" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Clump_Rotate_z" Type="XML_FLOAT" Value="0.000000" />
+            <Xnd_Attr Name="Attr_Clump_Scale_x" Type="XML_FLOAT" Value="1.000000" />
+            <Xnd_Attr Name="Attr_Clump_Scale_y" Type="XML_FLOAT" Value="1.000000" />
+            <Xnd_Attr Name="Attr_Clump_Scale_z" Type="XML_FLOAT" Value="1.000000" />
+            <Xnd_Attr Name="Attr_Dumy" Type="XML_INT" Value="1" />
+            <Xnd_Attr Name="Attr_Label" Type="XML_STRING" Value="mx" />
+        </Xnd_Node>
+        <Xnd_Node Name="ObjectList">
+            <Xnd_Node Name="Object">
+                <Xnd_Attr Name="ObjectId" Type="XML_STRING" Value="lz2.1" />
+            </Xnd_Node>
+        </Xnd_Node>
+    </Xnd_Node>
+</Xnd_Node>

@@ -1,0 +1,302 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\XmlEdit.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\app.ico"
+IDI_UNSELECT            ICON                    "res\\CLSDFOLD.ICO"
+IDI_SELECT              ICON                    "res\\OPENFOLD.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 142, 95
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "关于..."
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDR_STATIC,11,17,20,20
+    LTEXT           "程序:XmlEdit 版本:1.0",IDC_STATIC,37,18,79,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2006-2007 baickl",IDC_STATIC,24,48,103,8
+    DEFPUSHBUTTON   "确定(&O)",IDOK,85,72,50,16,BS_FLAT | WS_GROUP
+    LTEXT           "邮箱:baickl@gmail.com",IDC_STATIC,37,33,87,8
+    GROUPBOX        "",IDC_STATIC,7,7,128,61
+END
+
+IDD_XMLEDIT_DIALOG DIALOGEX 0, 0, 456, 300
+STYLE DS_SETFONT | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "XmlEdit v1.0 build0820"
+MENU IDR_MAINMENU
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    CONTROL         "",IDC_TREE_NODES,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,7,7,127,285
+    CONTROL         "",IDC_LIST_ATTRIBUTES,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,136,7,313,285
+END
+
+IDD_STANDARD_INPUT DIALOGEX 0, 0, 205, 48
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "请输入..."
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    EDITTEXT        IDC_EDIT,7,7,191,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定(&O)",IDOK,7,27,50,14,BS_FLAT
+    PUSHBUTTON      "取消(&C)",IDCANCEL,69,27,50,14,BS_FLAT
+END
+
+IDD_ATTRIBUTE_DIALOG DIALOGEX 0, 0, 343, 294
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "编辑属性"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,39,24,296,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_TYPE,39,44,296,68,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_VALUE,39,62,296,187,ES_MULTILINE | 
+                    ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "导入数据(&I)",IDC_BUTTON_IMPORT,224,253,50,14,BS_FLAT
+    PUSHBUTTON      "导出数据(&E)",IDC_BUTTON_EXPORT,284,253,50,14,BS_FLAT
+    PUSHBUTTON      "确定(&O)",IDOK,166,273,50,14,BS_FLAT
+    PUSHBUTTON      "取消(&C)",IDCANCEL,224,273,50,14,BS_FLAT
+    DEFPUSHBUTTON   "应用(&A)",IDC_BUTTON_APPLY,284,273,50,14,BS_FLAT
+    GROUPBOX        "属性",IDC_STATIC,7,7,329,263
+    LTEXT           "名称:",IDC_STATIC,13,24,21,8
+    LTEXT           "类型:",IDC_STATIC,13,44,21,8
+    LTEXT           "数据:",IDC_STATIC,13,62,21,8
+END
+
+IDD_ATTRIBUTECREAT_DIALOG DIALOGEX 0, 0, 154, 71
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "新建属性"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,33,7,114,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_TYPE,33,26,114,67,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "确定(&O)",IDOK,35,50,50,14,BS_FLAT
+    PUSHBUTTON      "取消(&C)",IDCANCEL,97,50,50,14,BS_FLAT
+    LTEXT           "名称:",IDC_STATIC,7,10,21,8
+    LTEXT           "类型:",IDC_STATIC,7,27,21,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 135
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_XMLEDIT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 449
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 292
+    END
+
+    IDD_STANDARD_INPUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 198
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 41
+    END
+
+    IDD_ATTRIBUTE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 336
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 287
+    END
+
+    IDD_ATTRIBUTECREAT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 147
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU 
+BEGIN
+    POPUP "&F.文件"
+    BEGIN
+        MENUITEM "&N.新建",                     ID_F_N
+        MENUITEM "&O.打开...",                  ID_FILE_OPEN32772
+        MENUITEM "&S.保存...",                  ID_FILE_SAVE32773
+        MENUITEM SEPARATOR
+        MENUITEM "&X.退出",                     ID_FILE_EXIT
+    END
+    POPUP "&E.编辑"
+    BEGIN
+        MENUITEM "&E.导出结点...",              ID_E_E
+        MENUITEM "&I.导入结点...",              ID_E_I
+        MENUITEM SEPARATOR
+        MENUITEM "&C.复制结点",                 ID_N_C
+        MENUITEM "&V.粘贴结点",                 ID_N_V
+        MENUITEM "&R.清除剪贴版",               ID_E_R
+    END
+    POPUP "&N.结点"
+    BEGIN
+        MENUITEM "&A.新建结点...",              32777
+        MENUITEM "&D.删除结点",                 32778
+        MENUITEM SEPARATOR
+        MENUITEM "&R.重新命名",                 32779
+    END
+    POPUP "&A.属性"
+    BEGIN
+        MENUITEM "&N.新建属性...",              ID_A_N
+        MENUITEM "&E.编辑属性...",              ID_LISTPOPUMENU_E
+        MENUITEM "&D.删除属性",                 ID_LISTPOPUMENU_D
+    END
+    POPUP "&H.帮助"
+    BEGIN
+        MENUITEM "&A.关于...",                  ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_TREE MENU 
+BEGIN
+    POPUP "TreePopuMenu"
+    BEGIN
+        MENUITEM "&A.新建结点",                 ID_TREEPOPUMENU_A
+        MENUITEM "&D.删除结点",                 ID_TREEPOPUMENU_D
+        MENUITEM SEPARATOR
+        MENUITEM "&E.导出结点...",              32808
+        MENUITEM "&I.导入结点...",              32809
+        MENUITEM SEPARATOR
+        MENUITEM "&C.复制结点",                 32805
+        MENUITEM "&V.粘贴结点",                 32803
+        MENUITEM "&R.清除剪贴版",               32810
+        MENUITEM SEPARATOR
+        MENUITEM "&N.重新命名",                 ID_TREEPOPUMENU_R
+    END
+END
+
+IDR_MENU_LIST MENU 
+BEGIN
+    POPUP "ListPopuMenu"
+    BEGIN
+        MENUITEM "&N.新建属性...",              ID_A_N
+        MENUITEM "&E.编辑属性...",              ID_LISTPOPUMENU_E
+        MENUITEM "&D.删除属性",                 ID_LISTPOPUMENU_D
+    END
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\XmlEdit.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
